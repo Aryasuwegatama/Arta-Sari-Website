@@ -7,18 +7,31 @@
     <title>Arta Sari - Plafon Gypsum & Kap Baja Ringan</title>
     <link
       rel="shortcut icon"
-      href="./image/AS-logo LightBlue.png"
+      href="./image/AS-logo-darkBlue.png"
       type="image/x-icon"
     />
     <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/kontak.css" />
+    <!--=================== SWIPER JS CSS ======================= -->
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
+    <!--=================== ANIMATE STYLE ======================= -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!--=================== ICONSCOUT ======================= -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
   </head>
   <body>
     <!--=================== NAV BAR ======================= -->
     <nav>
-      <div class="container nav__container">
+      <div class="nav__container">
         <div class="logo__container">
-          <a href="./index.html"
-            ><img src="./image/logo-white.png" alt="Arta Sari logo" />
+          <a href="./index.html">
+            <img src="./image/AS-logo-darkBlue.png" alt="Arta Sari logo" />
           </a>
 
           <div class="logo-text">
@@ -45,10 +58,217 @@
         </ul>
       </div>
     </nav>
-    <!--=================== HERO SLIDER ======================= -->
-    <!--=================== TESTING ======================= -->
-    <h1>KONTAK</h1>
+    <!--=================== GOOGLE MAPS LOCATION ======================= -->
+    <div class="mapouter">
+      <div class="gmap_canvas">
+        <iframe
+          width="100%"
+          height="80%"
+          id="gmap_canvas"
+          src="https://maps.google.com/maps?q=Jl%20Kelakah%20pidpid&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          frameborder="0"
+          scrolling="no"
+          marginheight="0"
+          marginwidth="0"
+        ></iframe>
+      </div>
+    </div>
+    <!--=================== KONTAK ARTA SARI ======================= -->
+    <section class="section-kontak" id="kontak">
+      <div class="kontak-img-container">
+        <img src="./image/AS-logo-fullTransparant.png" alt="" />
+      </div>
+      <div class="kontak-form-container">
+        <header>
+          <div class="header-wrapper">
+            <div class="title-container">
+              <h2>KONTAK ARTA SARI</h2>
+              <hr class="divider" />
+            </div>
+          </div>
+        </header>
+        <div class="kontak-detail-container">
+          <aside>
+            <ul class="kontak-icon">
+              <li>
+                <div class="icon-border">
+                  <i class="uil uil-whatsapp"></i>
+                </div>
+                WhatsApp Business: <br />
+                0812345678
+              </li>
+              <li>
+                <div class="icon-border">
+                  <i class="uil uil-envelope-alt"></i>
+                </div>
+                Email : <br />
+                artasari@gmail.com
+              </li>
+              <li>
+                <a
+                  href="https://web.facebook.com/profile.php?id=100083701772806"
+                  target="_blank"
+                >
+                  <div class="icon-border">
+                    <i class="uil uil-facebook-f"></i>
+                  </div>
+                  Facebook : <br />
+                  Arta Sari Gypsum & Baja Ringan</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.google.com/maps/place/Arta+Sari+Gypsum+%26+Baja+Ringan/@-8.3916424,115.5895532,21z/data=!4m5!3m4!1s0x0:0xff1357d9a4238810!8m2!3d-8.3916132!4d115.589485?hl=en"
+                  target="_blank"
+                >
+                  <div class="icon-border">
+                    <i class="uil uil-location-point"></i>
+                  </div>
+                  Alamat : <br />
+                  Br.Dinas Kelakah Desa Pidpid, Abang</a
+                >
+              </li>
+            </ul>
+          </aside>
+          <form action="" class="kontak-form">
+            <div class="style-input">
+              <input type="text" name="Nama" id="Nama" required />
+              <label for="Nama">Nama</label>
+            </div>
+            <div class="style-input">
+              <input
+                type="text"
+                name="Nomor WhatsApp"
+                id="nomorWhatsApp"
+                required
+              />
+              <label for="Nomor WhatsApp">Nomor WhatsApp</label>
+            </div>
+            <div class="style-input">
+              <input type="email" name="Email" id="Email" required />
+              <label for="Email">Alamat Email</label>
+            </div>
+            <div class="style-input">
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="5"
+                required
+              ></textarea>
+              <label for="message">Tulis Pesan</label>
+            </div>
 
+            <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!--=================== FOOTER ======================= -->
+    <footer>
+      <div class="footer__container">
+        <div class="logo__container">
+          <a href="./index.html">
+            <img src="./image/AS-logo-darkBlue.png" alt="Arta Sari logo" />
+          </a>
+
+          <div class="logo-text">
+            <a href="./index.html">
+              <h1>Arta Sari</h1>
+              <p>Interior & Eksterior Plafon Gypsum dan Rangka Baja Ringan</p>
+            </a>
+          </div>
+        </div>
+
+        <div class="kontak__footer__container">
+          <h3>KONTAK INFO</h3>
+          <ul class="kontak__footer__list">
+            <li>
+              <i class="uil uil-whatsapp"></i>
+              0812345678
+            </li>
+            <li>
+              <i class="uil uil-envelope-alt"></i>
+              artasari@gmail.com
+            </li>
+            <li>
+              <a
+                href="https://web.facebook.com/profile.php?id=100083701772806"
+                target="_blank"
+              >
+                <i class="uil uil-facebook-f"></i>
+                Arta Sari Gypsum & Baja Ringan</a
+              >
+              <hr class="hover" />
+            </li>
+            <li>
+              <a
+                href="https://www.google.com/maps/place/Arta+Sari+Gypsum+%26+Baja+Ringan/@-8.3916424,115.5895532,21z/data=!4m5!3m4!1s0x0:0xff1357d9a4238810!8m2!3d-8.3916132!4d115.589485?hl=en"
+                target="_blank"
+              >
+                <i class="uil uil-location-point"></i>
+                Br.Dinas Kelakah Desa Pidpid, Abang</a
+              >
+              <hr class="hover" />
+            </li>
+          </ul>
+        </div>
+
+        <div class="layanan__footer__container">
+          <h3>LAYANAN</h3>
+          <ul class="layanan__footer__list">
+            <li>
+              <a href="./layanan.html">Plafon Gypsum </a>
+              <hr class="hover" />
+            </li>
+            <li>
+              <a href="./layanan.html">Interior Gypsum (Finishing) </a>
+              <hr class="hover" />
+            </li>
+            <li>
+              <a href="./layanan.html">Rangka Atap Baja Ringan </a>
+              <hr class="hover" />
+            </li>
+            <li>
+              <a href="./layanan.html">Pengecatan dan Prada</a>
+              <hr class="hover" />
+            </li>
+          </ul>
+        </div>
+
+        <div class="produk__footer__container">
+          <h3>PRODUK</h3>
+          <ul class="produk__footer__list">
+            <li>
+              <a href="./produk.html">Rangka Baja Ringan</a>
+              <hr class="hover" />
+            </li>
+            <li>
+              <a href="./produk.html">Rangka Plafon </a>
+              <hr class="hover" />
+            </li>
+            <li>
+              <a href="./produk.html">Papan Gypsum</a>
+              <hr class="hover" />
+            </li>
+            <li>
+              <a href="./produk.html">Lis Gypsum</a>
+              <hr class="hover" />
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <hr class="section-divider" />
+
+      <p class="copyright">
+        Copyright &#9400;
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        Ayra Web Design. All rights reserved.
+      </p>
+    </footer>
     <!--=================== MAIN JS ======================= -->
     <script src="./main.js"></script>
   </body>
